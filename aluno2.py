@@ -1,5 +1,7 @@
+
 def maior(lista):
+	a=lista[0]
 	for i in range(len(lista)):
-		if lista[i]>lista[i+1]:
-			lista[i]=a
+		if lista[i]>a:
+		lista[i]=a
 	return a
