@@ -11,4 +11,4 @@ def ler_numeros(n):
     for i in range(n):
         n = int(input("escreva um numero"))
         lista.append(n)
-    return lista()
+    return lista
